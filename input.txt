@@ -1,0 +1,14 @@
+This program is designed to demonstrate basic file I/O operations and error handling in Python.
+
+Functionality: The core logic is encapsulated in the process_file function. It takes a filename as input and attempts to perform the following steps:
+
+Read: It opens the original file and reads its entire content.
+
+Modify: It converts the read content to all uppercase letters.
+
+Write: It creates a new file, appends _modified to the original filename, and writes the uppercase content to it.
+
+Error Handling: It uses a try...except block to catch a FileNotFoundError if the file doesn't exist. It also includes a general IOError catch to handle other potential issues like permission errors.
+
+User Interaction: The main part of the script prompts the user for a filename and then calls the process_file function. A success or failure message is printed to the console based on the outcome of the function call.
+Thank you
